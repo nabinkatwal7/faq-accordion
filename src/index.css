@@ -12,3 +12,7 @@
     src: url('./../assets/fonts/WorkSans-Italic-VariableFont_wght.ttf');
     font-style: italic;
 }
+
+body {
+    font-family: 'WorkSans';
+}
