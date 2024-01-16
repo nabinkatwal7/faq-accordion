@@ -13,7 +13,7 @@ function App() {
             " -translate-y-1/2"} >
             <div className={"flex flex-col gap-4"} >
                 <div className={"title flex gap-2"} >
-                    <img src="./../assets/images/icon-star.svg" />
+                    <img src="/assets/images/icon-star.svg" alt={"star"} />
                     <p className={" text-3xl lg:text-8xl font-bold"} >FAQs</p>
                 </div>
                 <div className={"faq"} >

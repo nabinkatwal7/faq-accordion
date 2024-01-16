@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: 'WorkSans';
-    src: url('./../assets/fonts/WorkSans-VariableFont_wght.ttf');
+    src: url('../public/assets/fonts/WorkSans-VariableFont_wght.ttf');
 }
 
 @font-face {
     font-family: 'WorkSansItalic';
-    src: url('./../assets/fonts/WorkSans-Italic-VariableFont_wght.ttf');
+    src: url('../public/assets/fonts/WorkSans-Italic-VariableFont_wght.ttf');
     font-style: italic;
 }
 

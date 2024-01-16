@@ -38,7 +38,7 @@ function Accordion() {
                     <div className={"flex flex-row justify-between gap-2 items-center"} onClick={() => setActive(index)}>
                         <p className={"text-xl lg:text-2xl font-bold w-full"} >{item.title}</p>
                         <div>
-                            {active === index ? <img src="./../assets/images/icon-minus.svg"/> : <img src="./../assets/images/icon-plus.svg"/>}
+                            {active === index ? <img src="/assets/images/icon-minus.svg" alt={"minus"}/> : <img src="/assets/images/icon-plus.svg" alt="plus"/> }
                         </div>
                     </div>
                     {active === index && <div><p className={"text-lg text-gray-700"}>{item.content}</p></div>}
